@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;700;900&family=Lato&family=Montserrat:wght@100;700&family=PT+Serif:wght@700&family=Poppins:wght@600&family=Space+Mono:wght@400;700&display=swap');
+
+body{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    background-color: black;
+    font-family: 'Lato', sans-serif;
+}
+
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h3{
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+h5{
+    font-size: 15px;
+    padding-top: 0.2rem;
+    padding-left: 0.2rem;
+    font-size: 14px;
+}
+
+.topic{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(19, 1fr);
+    gap: 6px;
+    grid-template-rows: repeat(8, 1fr);
+    
+    
+}
+.top{
+    display: grid;
+    grid-column: 0/18;
+    grid-row: 1/9;
+}
+
+.row1{
+    grid-row: 1/2;
+
+   
+}
+.row2{
+    grid-row: 2/3;
+    padding-top: 1.2rem;
+    text-align: center;
+   
+}
+.row3{
+    grid-row: 3/4;
+    padding-top: 1.2rem;
+    text-align: center;
+}
+.row4{
+    grid-row: 4/5;
+    padding-top: 1.2rem;
+    text-align: center;
+}
+.row5{
+    grid-row: 5/6;
+    padding-top: 1.2rem;
+    text-align: center;
+}
+.row6{
+    grid-row: 6/7;
+    padding-top: 1.2rem;
+    text-align: center;
+}
+.row7{
+    grid-row: 7/8;
+    padding-top: 1.2rem;
+    text-align: center;
+}
+.row8{
+    grid-row: 8/9;
+    padding-top: 1.2rem;
+    text-align: center;
+}
+.text-center{
+    padding-top: 1.2rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.box{
+
+    height: 70px;
+}
+
+.black{
+    background-color: black;
+}
+
+.white{
+    background-color: white;
+}
+
+.orange{
+    background-color: #884400;
+}
+
+.red{
+    background-color: #880000;
+}
+
+.yellow{
+    background-color: rgb(250, 250, 8);
+}
+
+.indigo{
+    background-color: rgb(132, 48, 192);
+}
+
+.blue{
+    background-color: #004488;
+}
+
+.green{
+    background-color: #002200;
+}
+
+.lightgreen{
+    background-color: #44aa00;
+}
+
+
+.pink{
+    background-color:#dd22aa;
+}
+
+.lightred{
+    background-color: #660044;
+}
+
+.blued{
+    background-color: #226688;
+}
